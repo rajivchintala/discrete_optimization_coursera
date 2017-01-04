@@ -32,7 +32,7 @@ def solve_it(input_data):
             taken[item.index] = 1
             value += item.value
             weight += item.weight
-    
+
     # prepare the solution in the specified output format
     output_data = str(value) + ' ' + str(0) + '\n'
     output_data += ' '.join(map(str, taken))
